@@ -12,6 +12,9 @@
 		B8DE13312C33F94500E59B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13302C33F94500E59B82 /* Assets.xcassets */; };
 		B8DE13342C33F94500E59B82 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13332C33F94500E59B82 /* Base */; };
 		B8DE13642C37E9AB00E59B82 /* VoxelLogin in Frameworks */ = {isa = PBXBuildFile; productRef = B8DE13632C37E9AB00E59B82 /* VoxelLogin */; };
+		B8DE13682C37F5C300E59B82 /* IBMPlexSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13672C37F5C300E59B82 /* IBMPlexSerif-Bold.ttf */; };
+		B8DE136A2C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13692C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf */; };
+		B8DE136C2C38011100E59B82 /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE136B2C38011100E59B82 /* IBMPlexSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B8DE13332C33F94500E59B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8DE13352C33F94500E59B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8DE133B2C33FB0E00E59B82 /* Modules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Modules; path = ../Modules; sourceTree = "<group>"; };
+		B8DE13672C37F5C300E59B82 /* IBMPlexSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSerif-Bold.ttf"; sourceTree = "<group>"; };
+		B8DE13692C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSerif-Regular.ttf"; sourceTree = "<group>"; };
+		B8DE136B2C38011100E59B82 /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,9 @@
 		B8DE13262C33F94400E59B82 /* Voxel */ = {
 			isa = PBXGroup;
 			children = (
+				B8DE13652C37F37000E59B82 /* Resources */,
 				B8DE13272C33F94400E59B82 /* AppDelegate.swift */,
 				B8DE13292C33F94400E59B82 /* SceneDelegate.swift */,
-				B8DE13302C33F94500E59B82 /* Assets.xcassets */,
 				B8DE13322C33F94500E59B82 /* LaunchScreen.storyboard */,
 				B8DE13352C33F94500E59B82 /* Info.plist */,
 			);
@@ -71,6 +77,25 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8DE13652C37F37000E59B82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8DE13662C37F39F00E59B82 /* Fonts */,
+				B8DE13302C33F94500E59B82 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B8DE13662C37F39F00E59B82 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B8DE136B2C38011100E59B82 /* IBMPlexSans-Regular.ttf */,
+				B8DE13672C37F5C300E59B82 /* IBMPlexSerif-Bold.ttf */,
+				B8DE13692C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8DE13312C33F94500E59B82 /* Assets.xcassets in Resources */,
+				B8DE136A2C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf in Resources */,
+				B8DE136C2C38011100E59B82 /* IBMPlexSans-Regular.ttf in Resources */,
+				B8DE13682C37F5C300E59B82 /* IBMPlexSerif-Bold.ttf in Resources */,
 				B8DE13342C33F94500E59B82 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
