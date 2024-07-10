@@ -1,0 +1,30 @@
+"/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/SnapKit/Sources/ConstraintMaker.swift":
+  swift-dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMaker.swiftdeps"
+  object: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMaker.o"
+  diagnostics: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMaker.dia"
+  const-values: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMaker.swiftconstvalues"
+  dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMaker.d"
+"/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/SnapKit/Sources/ConstraintMakerEditable.swift":
+  object: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMakerEditable.o"
+  swift-dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMakerEditable.swiftdeps"
+  dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMakerEditable.d"
+  const-values: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMakerEditable.swiftconstvalues"
+  diagnostics: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMakerEditable.dia"
+"/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/SnapKit/Sources/ConstraintMakerExtendable.swift":
+  dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMakerExtendable.d"
+  object: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMakerExtendable.o"
+  diagnostics: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMakerExtendable.dia"
+  const-values: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMakerExtendable.swiftconstvalues"
+  swift-dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintMakerExtendable.swiftdeps"
+"/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/SnapKit/Sources/ConstraintLayoutSupportDSL.swift":
+  const-values: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutSupportDSL.swiftconstvalues"
+  diagnostics: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutSupportDSL.dia"
+  dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutSupportDSL.d"
+  object: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutSupportDSL.o"
+  swift-dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutSupportDSL.swiftdeps"
+"/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/SnapKit/Sources/ConstraintLayoutSupport.swift":
+  dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutSupport.d"
+  const-values: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutSupport.swiftconstvalues"
+  object: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutSupport.o"
+  swift-dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutSupport.swiftdeps"
+  diagnostics: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintLayoutSupport.dia"

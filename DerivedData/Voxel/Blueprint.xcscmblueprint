@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "95A1660839893D4BD34A210BEDBEDDA18D1E15E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "95A1660839893D4BD34A210BEDBEDDA18D1E15E1" : 0,
+    "3AF18F9C6F5D633BAA0B3F935459E0C777C82047" : 0,
+    "1C21A6D9CEFDB75F3E7384471E7F3544E86972D3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D59BF616-C129-431E-899E-C817ED300632",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "95A1660839893D4BD34A210BEDBEDDA18D1E15E1" : "Voxel\/",
+    "3AF18F9C6F5D633BAA0B3F935459E0C777C82047" : "Voxel\/DerivedData\/Voxel\/SourcePackages\/checkouts\/SnapKit\/",
+    "1C21A6D9CEFDB75F3E7384471E7F3544E86972D3" : "Voxel\/DerivedData\/Voxel\/SourcePackages\/checkouts\/PhoneNumberKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Voxel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Voxel.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/tetyanavechorko\/Voxel\/DerivedData\/Voxel\/SourcePackages\/repositories\/PhoneNumberKit-c8013762",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1C21A6D9CEFDB75F3E7384471E7F3544E86972D3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/tetyanavechorko\/Voxel\/DerivedData\/Voxel\/SourcePackages\/repositories\/SnapKit-a5691e5b",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AF18F9C6F5D633BAA0B3F935459E0C777C82047"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:VechorkoTetyana\/Voxel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95A1660839893D4BD34A210BEDBEDDA18D1E15E1"
+    }
+  ]
+}

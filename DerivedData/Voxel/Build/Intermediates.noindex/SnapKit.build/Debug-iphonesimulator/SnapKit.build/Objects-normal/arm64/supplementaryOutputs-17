@@ -1,0 +1,30 @@
+"/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/SnapKit/Sources/ConstraintDirectionalInsetTarget.swift":
+  object: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDirectionalInsetTarget.o"
+  diagnostics: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDirectionalInsetTarget.dia"
+  const-values: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDirectionalInsetTarget.swiftconstvalues"
+  swift-dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDirectionalInsetTarget.swiftdeps"
+  dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDirectionalInsetTarget.d"
+"/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/SnapKit/Sources/ConstraintDSL.swift":
+  dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDSL.d"
+  const-values: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDSL.swiftconstvalues"
+  object: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDSL.o"
+  swift-dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDSL.swiftdeps"
+  diagnostics: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDSL.dia"
+"/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/SnapKit/Sources/ConstraintInsetTarget.swift":
+  swift-dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsetTarget.swiftdeps"
+  dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsetTarget.d"
+  diagnostics: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsetTarget.dia"
+  const-values: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsetTarget.swiftconstvalues"
+  object: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintInsetTarget.o"
+"/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/SnapKit/Sources/ConstraintDirectionalInsets.swift":
+  dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDirectionalInsets.d"
+  object: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDirectionalInsets.o"
+  swift-dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDirectionalInsets.swiftdeps"
+  const-values: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDirectionalInsets.swiftconstvalues"
+  diagnostics: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDirectionalInsets.dia"
+"/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/SnapKit/Sources/ConstraintDescription.swift":
+  object: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDescription.o"
+  dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDescription.d"
+  const-values: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDescription.swiftconstvalues"
+  swift-dependencies: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDescription.swiftdeps"
+  diagnostics: "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/SnapKit.build/Debug-iphonesimulator/SnapKit.build/Objects-normal/arm64/ConstraintDescription.dia"

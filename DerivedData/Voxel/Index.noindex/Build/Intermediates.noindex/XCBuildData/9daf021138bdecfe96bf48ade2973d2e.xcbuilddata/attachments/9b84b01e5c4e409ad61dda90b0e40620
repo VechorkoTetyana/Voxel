@@ -1,0 +1,18 @@
+{
+  "" : {
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Index.noindex/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/Voxel-master.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Index.noindex/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/Voxel-master.dia",
+    "emit-module-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Index.noindex/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/Voxel-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Index.noindex/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/Voxel-master-emit-module.dia",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Index.noindex/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/Voxel-master.swiftdeps"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Index.noindex/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/tetyanavechorko/Voxel/Voxel/AppDelegate.swift" : {
+
+  },
+  "/Users/tetyanavechorko/Voxel/Voxel/SceneDelegate.swift" : {
+
+  }
+}

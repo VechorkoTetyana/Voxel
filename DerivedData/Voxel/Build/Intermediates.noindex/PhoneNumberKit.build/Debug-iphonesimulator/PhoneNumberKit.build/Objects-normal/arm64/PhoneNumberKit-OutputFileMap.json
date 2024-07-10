@@ -1,0 +1,198 @@
+{
+  "" : {
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit-master.dia",
+    "emit-module-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit-master-emit-module.dia",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit-master.swiftdeps"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/resource_bundle_accessor.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/resource_bundle_accessor.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/resource_bundle_accessor~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/Bundle+Resources.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Bundle+Resources.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Bundle+Resources.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Bundle+Resources.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Bundle+Resources.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Bundle+Resources.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Bundle+Resources.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Bundle+Resources.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Bundle+Resources~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/Constants.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Constants.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Constants.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Constants.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Constants.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Constants.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Constants~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/Formatter.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Formatter.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Formatter.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Formatter.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Formatter.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Formatter.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Formatter.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Formatter.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/Formatter~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/MetadataManager.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataManager.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataManager.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataManager.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataManager.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataManager.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataManager.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataManager.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataManager~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/MetadataParsing.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataParsing.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataParsing.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataParsing.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataParsing.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataParsing.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataParsing.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataParsing.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataParsing~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/MetadataTypes.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataTypes.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataTypes.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataTypes.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataTypes.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataTypes.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataTypes.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataTypes.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/MetadataTypes~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/NSRegularExpression+Swift.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/NSRegularExpression+Swift.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/NSRegularExpression+Swift.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/NSRegularExpression+Swift.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/NSRegularExpression+Swift.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/NSRegularExpression+Swift.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/NSRegularExpression+Swift.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/NSRegularExpression+Swift.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/NSRegularExpression+Swift~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/ParseManager.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/ParseManager.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/ParseManager.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/ParseManager.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/ParseManager.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/ParseManager.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/ParseManager.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/ParseManager.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/ParseManager~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PartialFormatter.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PartialFormatter.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PartialFormatter.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PartialFormatter.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PartialFormatter.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PartialFormatter.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PartialFormatter.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PartialFormatter.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PartialFormatter~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumber.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumber+Codable.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber+Codable.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber+Codable.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber+Codable.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber+Codable.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber+Codable.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber+Codable.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber+Codable.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumber+Codable~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumberFormatter.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberFormatter.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberFormatter.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberFormatter.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberFormatter.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberFormatter.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberFormatter.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberFormatter.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberFormatter~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumberKit.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberKit~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumberParser.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberParser.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberParser.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberParser.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberParser.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberParser.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberParser.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberParser.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberParser~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/RegexManager.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/RegexManager.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/RegexManager.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/RegexManager.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/RegexManager.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/RegexManager.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/RegexManager.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/RegexManager.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/RegexManager~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/UI/CountryCodePickerOptions.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerOptions.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerOptions.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerOptions.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerOptions.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerOptions.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerOptions.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerOptions.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerOptions~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/UI/CountryCodePickerViewController.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerViewController.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerViewController.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerViewController.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerViewController.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerViewController.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerViewController.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerViewController.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/CountryCodePickerViewController~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/UI/PhoneNumberTextField.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberTextField.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberTextField.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberTextField.dia",
+    "index-unit-output-path" : "/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberTextField.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberTextField.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberTextField.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberTextField.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/Objects-normal/arm64/PhoneNumberTextField~partial.swiftmodule"
+  }
+}

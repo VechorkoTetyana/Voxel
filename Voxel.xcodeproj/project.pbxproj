@@ -16,6 +16,8 @@
 		B8DE136A2C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13692C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf */; };
 		B8DE136C2C38011100E59B82 /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE136B2C38011100E59B82 /* IBMPlexSans-Regular.ttf */; };
 		B8DE136E2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE136D2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf */; };
+		B8F768FC2C3E9F7600185CB7 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = B8F768FB2C3E9F7600185CB7 /* DesignSystem */; };
+		B8F768FE2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8F768FD2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		B8DE13692C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSerif-Regular.ttf"; sourceTree = "<group>"; };
 		B8DE136B2C38011100E59B82 /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
 		B8DE136D2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		B8F768FD2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8DE13642C37E9AB00E59B82 /* VoxelLogin in Frameworks */,
+				B8F768FC2C3E9F7600185CB7 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +97,7 @@
 		B8DE13662C37F39F00E59B82 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				B8F768FD2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf */,
 				B8DE136D2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf */,
 				B8DE136B2C38011100E59B82 /* IBMPlexSans-Regular.ttf */,
 				B8DE13672C37F5C300E59B82 /* IBMPlexSerif-Bold.ttf */,
@@ -119,6 +124,7 @@
 			name = Voxel;
 			packageProductDependencies = (
 				B8DE13632C37E9AB00E59B82 /* VoxelLogin */,
+				B8F768FB2C3E9F7600185CB7 /* DesignSystem */,
 			);
 			productName = Voxel;
 			productReference = B8DE13242C33F94400E59B82 /* Voxel.app */;
@@ -164,6 +170,7 @@
 			files = (
 				B8DE13312C33F94500E59B82 /* Assets.xcassets in Resources */,
 				B8DE136A2C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf in Resources */,
+				B8F768FE2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf in Resources */,
 				B8DE136C2C38011100E59B82 /* IBMPlexSans-Regular.ttf in Resources */,
 				B8DE13682C37F5C300E59B82 /* IBMPlexSerif-Bold.ttf in Resources */,
 				B8DE136E2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf in Resources */,
@@ -395,6 +402,10 @@
 		B8DE13632C37E9AB00E59B82 /* VoxelLogin */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = VoxelLogin;
+		};
+		B8F768FB2C3E9F7600185CB7 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

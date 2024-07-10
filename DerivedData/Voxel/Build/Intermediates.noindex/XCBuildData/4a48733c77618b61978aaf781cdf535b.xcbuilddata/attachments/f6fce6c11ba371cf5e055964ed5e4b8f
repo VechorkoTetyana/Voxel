@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/Voxel-master.dia",
+    "emit-module-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/Voxel-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/Voxel-master-emit-module.dia",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/Voxel-master.swiftdeps"
+  },
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/Voxel/AppDelegate.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/tetyanavechorko/Voxel/Voxel/SceneDelegate.swift" : {
+    "const-values" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Build/Intermediates.noindex/Voxel.build/Debug-iphonesimulator/Voxel.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  }
+}

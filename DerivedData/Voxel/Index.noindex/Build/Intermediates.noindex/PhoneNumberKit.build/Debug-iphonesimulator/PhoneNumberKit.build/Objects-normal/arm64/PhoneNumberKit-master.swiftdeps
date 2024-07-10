@@ -1,0 +1,29 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "7da84d8333ea6ba7c272d121c87ce5f1c4be68335275e75c3a695f66947e75d1"
+build_start_time: [1720602838, 949764000]
+build_end_time: [1720602840, 775119000]
+inputs:
+  ? "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/Index.noindex/Build/Intermediates.noindex/PhoneNumberKit.build/Debug-iphonesimulator/PhoneNumberKit.build/DerivedSources/resource_bundle_accessor.swift"
+  : [1720602838, 933937000]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/Bundle+Resources.swift": [1720602836, 521259993]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/Constants.swift": [1720602836, 521411700]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/Formatter.swift": [1720602836, 521542157]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/MetadataManager.swift": [1720602836, 521706448]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/MetadataParsing.swift": [1720602836, 521842238]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/MetadataTypes.swift": [1720602836, 521976112]
+  ? "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/NSRegularExpression+Swift.swift"
+  : [1720602836, 522048028]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/ParseManager.swift": [1720602836, 522209902]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PartialFormatter.swift": [1720602836, 522300152]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumber+Codable.swift": [1720602836, 522439609]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumber.swift": [1720602836, 522681024]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumberFormatter.swift": [1720602836, 522839939]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumberKit.swift": [1720602836, 523194437]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/PhoneNumberParser.swift": [1720602836, 523448976]
+  "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/RegexManager.swift": [1720602836, 523601184]
+  ? "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/UI/CountryCodePickerOptions.swift"
+  : [1720602836, 526980533]
+  ? "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/UI/CountryCodePickerViewController.swift"
+  : [1720602836, 527145241]
+  ? "/Users/tetyanavechorko/Voxel/DerivedData/Voxel/SourcePackages/checkouts/PhoneNumberKit/PhoneNumberKit/UI/PhoneNumberTextField.swift"
+  : [1720602836, 527249656]
