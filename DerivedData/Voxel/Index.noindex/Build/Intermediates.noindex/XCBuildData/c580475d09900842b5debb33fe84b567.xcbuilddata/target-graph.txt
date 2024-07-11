@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'DesignSystem' in project 'Modules'
-➜ Explicit dependency on target 'Modules_DesignSystem' in project 'Modules'
-Target 'Modules_DesignSystem' in project 'Modules' (no dependencies)
