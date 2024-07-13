@@ -1,18 +1,22 @@
 import UIKit
-import VoxelLogin
 import DesignSystem
+import VoxelAuthentication
+import VoxelLogin
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        let phoneNumberViewController = PhoneNumberViewController()
-        let navigationController = UINavigationController(rootViewController: phoneNumberViewController)
+        
+        let authService = AuthServicelive()
+        let viewModel = PhoneNumberViewModel(authService: authService)
+        let phoneNumberController = PhoneNumberViewController()
+        phoneNumberController.viewModel = viewModel
+        let navigationController = UINavigationController(rootViewController: phoneNumberController)
         
         navigationController.styleVoxel()
         
@@ -60,7 +64,6 @@ extension UINavigationController {
         navigationBar.backIndicatorImage = image
         navigationBar.backIndicatorTransitionMaskImage = image
 
-//        phoneNumberViewController.navigationItem.leftItemsSupplementBackButton = true
         navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: self, action: nil)
     }
 }
