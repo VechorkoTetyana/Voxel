@@ -18,6 +18,8 @@
 		B8DE136E2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE136D2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf */; };
 		B8F768FC2C3E9F7600185CB7 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = B8F768FB2C3E9F7600185CB7 /* DesignSystem */; };
 		B8F768FE2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8F768FD2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf */; };
+		B8F769002C40697400185CB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8F768FF2C40697400185CB7 /* GoogleService-Info.plist */; };
+		B8F769032C407B6600185CB7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B8F769022C407B6600185CB7 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		B8DE136B2C38011100E59B82 /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
 		B8DE136D2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		B8F768FD2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
+		B8F768FF2C40697400185CB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8DE13642C37E9AB00E59B82 /* VoxelLogin in Frameworks */,
+				B8F769032C407B6600185CB7 /* FirebaseAuth in Frameworks */,
 				B8F768FC2C3E9F7600185CB7 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +77,7 @@
 				B8DE13272C33F94400E59B82 /* AppDelegate.swift */,
 				B8DE13292C33F94400E59B82 /* SceneDelegate.swift */,
 				B8DE13322C33F94500E59B82 /* LaunchScreen.storyboard */,
+				B8F768FF2C40697400185CB7 /* GoogleService-Info.plist */,
 				B8DE13352C33F94500E59B82 /* Info.plist */,
 			);
 			path = Voxel;
@@ -125,6 +130,7 @@
 			packageProductDependencies = (
 				B8DE13632C37E9AB00E59B82 /* VoxelLogin */,
 				B8F768FB2C3E9F7600185CB7 /* DesignSystem */,
+				B8F769022C407B6600185CB7 /* FirebaseAuth */,
 			);
 			productName = Voxel;
 			productReference = B8DE13242C33F94400E59B82 /* Voxel.app */;
@@ -154,6 +160,9 @@
 				Base,
 			);
 			mainGroup = B8DE131B2C33F94400E59B82;
+			packageReferences = (
+				B8F769012C40788900185CB7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B8DE13252C33F94400E59B82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -169,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8DE13312C33F94500E59B82 /* Assets.xcassets in Resources */,
+				B8F769002C40697400185CB7 /* GoogleService-Info.plist in Resources */,
 				B8DE136A2C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf in Resources */,
 				B8F768FE2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf in Resources */,
 				B8DE136C2C38011100E59B82 /* IBMPlexSans-Regular.ttf in Resources */,
@@ -398,6 +408,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		B8F769012C40788900185CB7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		B8DE13632C37E9AB00E59B82 /* VoxelLogin */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -406,6 +427,11 @@
 		B8F768FB2C3E9F7600185CB7 /* DesignSystem */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DesignSystem;
+		};
+		B8F769022C407B6600185CB7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8F769012C40788900185CB7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
