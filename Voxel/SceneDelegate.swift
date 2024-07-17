@@ -14,8 +14,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let authService = AuthServicelive()
         let viewModel = PhoneNumberViewModel(authService: authService)
+        
         let phoneNumberController = PhoneNumberViewController()
         phoneNumberController.viewModel = viewModel
+        
         let navigationController = UINavigationController(rootViewController: phoneNumberController)
         
         navigationController.styleVoxel()
