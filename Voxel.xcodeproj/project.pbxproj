@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B826AB312C485DAD007337B3 /* VoxelCore in Frameworks */ = {isa = PBXBuildFile; productRef = B826AB302C485DAD007337B3 /* VoxelCore */; };
+		B826AB332C491EDB007337B3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826AB322C491EDB007337B3 /* TabBarController.swift */; };
+		B826AB352C49252E007337B3 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826AB342C49252E007337B3 /* Tab.swift */; };
+		B826AB382C495206007337B3 /* VoxelSettings in Frameworks */ = {isa = PBXBuildFile; productRef = B826AB372C495206007337B3 /* VoxelSettings */; };
 		B8DE13282C33F94400E59B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13272C33F94400E59B82 /* AppDelegate.swift */; };
 		B8DE132A2C33F94400E59B82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13292C33F94400E59B82 /* SceneDelegate.swift */; };
 		B8DE13312C33F94500E59B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13302C33F94500E59B82 /* Assets.xcassets */; };
@@ -23,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B826AB322C491EDB007337B3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B826AB342C49252E007337B3 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		B8DE13242C33F94400E59B82 /* Voxel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voxel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DE13272C33F94400E59B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DE13292C33F94400E59B82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B826AB312C485DAD007337B3 /* VoxelCore in Frameworks */,
+				B826AB382C495206007337B3 /* VoxelSettings in Frameworks */,
 				B8DE13642C37E9AB00E59B82 /* VoxelLogin in Frameworks */,
 				B8F769032C407B6600185CB7 /* FirebaseAuth in Frameworks */,
 				B8F768FC2C3E9F7600185CB7 /* DesignSystem in Frameworks */,
@@ -52,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B826AB362C49257A007337B3 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				B826AB322C491EDB007337B3 /* TabBarController.swift */,
+				B826AB342C49252E007337B3 /* Tab.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
 		B8DE131B2C33F94400E59B82 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +90,7 @@
 		B8DE13262C33F94400E59B82 /* Voxel */ = {
 			isa = PBXGroup;
 			children = (
+				B826AB362C49257A007337B3 /* Tab */,
 				B8DE13652C37F37000E59B82 /* Resources */,
 				B8DE13272C33F94400E59B82 /* AppDelegate.swift */,
 				B8DE13292C33F94400E59B82 /* SceneDelegate.swift */,
@@ -131,6 +149,8 @@
 				B8DE13632C37E9AB00E59B82 /* VoxelLogin */,
 				B8F768FB2C3E9F7600185CB7 /* DesignSystem */,
 				B8F769022C407B6600185CB7 /* FirebaseAuth */,
+				B826AB302C485DAD007337B3 /* VoxelCore */,
+				B826AB372C495206007337B3 /* VoxelSettings */,
 			);
 			productName = Voxel;
 			productReference = B8DE13242C33F94400E59B82 /* Voxel.app */;
@@ -195,8 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B826AB332C491EDB007337B3 /* TabBarController.swift in Sources */,
 				B8DE13282C33F94400E59B82 /* AppDelegate.swift in Sources */,
 				B8DE132A2C33F94400E59B82 /* SceneDelegate.swift in Sources */,
+				B826AB352C49252E007337B3 /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +442,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B826AB302C485DAD007337B3 /* VoxelCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VoxelCore;
+		};
+		B826AB372C495206007337B3 /* VoxelSettings */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VoxelSettings;
+		};
 		B8DE13632C37E9AB00E59B82 /* VoxelLogin */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = VoxelLogin;

@@ -1,6 +1,7 @@
 import UIKit
 import DesignSystem
 import VoxelAuthentication
+import VoxelCore
 import VoxelLogin
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -12,19 +13,42 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
+        let navigationController = UINavigationController(
+            rootViewController: setupInitialViewController()
+        )
+        
+        navigationController.styleVoxel()
+        
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+        
+        subscribeToLogin()
+    }
+    
+    private func setupInitialViewController() -> UIViewController {
+        let authService = AuthServicelive()
+        
+        if authService.isAuthenticated {
+            return setupTabBar()
+        } else {
+            return setupPhoneNumberController()
+        }
+    }
+    
+    private func setupTabBar() -> UIViewController {
+        TabBarController()
+    }
+    
+    private func setupPhoneNumberController() -> UIViewController {
         let authService = AuthServicelive()
         let viewModel = PhoneNumberViewModel(authService: authService)
         
         let phoneNumberController = PhoneNumberViewController()
         phoneNumberController.viewModel = viewModel
         
-        let navigationController = UINavigationController(rootViewController: phoneNumberController)
-        
-        navigationController.styleVoxel()
-        
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
+        return phoneNumberController
     }
+    
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
@@ -53,19 +77,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
-
 }
 
-extension UINavigationController {
-    func styleVoxel() {
-        navigationBar.tintColor = .accent
-        
-        let image = UIImage.chevronLeft
-        
-        navigationBar.backIndicatorImage = image
-        navigationBar.backIndicatorTransitionMaskImage = image
-
-        navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: self, action: nil)
+extension SceneDelegate {
+    private func subscribeToLogin() {
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(didLoginSuccessfully),
+            name: Notification.Name(AppNotification.didLoginSuccessfully.rawValue),
+            object: nil
+        )
+    }
+    
+    @objc
+    private func didLoginSuccessfully() {
+        let navigationController = window?.rootViewController as? UINavigationController
+        let viewController = UIViewController()
+        navigationController?.setViewControllers([setupTabBar()], animated: true)
     }
 }
