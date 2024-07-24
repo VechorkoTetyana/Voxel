@@ -13,11 +13,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
+        UINavigationController.styleVoxel()
+        
         let navigationController = UINavigationController(
             rootViewController: setupInitialViewController()
         )
         
-        navigationController.styleVoxel()
+//      navigationController.styleVoxel()
         
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
