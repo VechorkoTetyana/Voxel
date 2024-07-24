@@ -33,6 +33,9 @@ class TabBarController: UITabBarController {
 
         let settings = SettingsViewController()
         let settingsNav = UINavigationController(rootViewController: settings)
+       
+//        settingsNav.styleVoxel()
+        
         settings.tabBarItem = Tab.settings.tabBarItem
         settings.title = Tab.settings.tabBarItem.title
         
