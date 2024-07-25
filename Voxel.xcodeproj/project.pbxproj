@@ -11,6 +11,7 @@
 		B826AB332C491EDB007337B3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826AB322C491EDB007337B3 /* TabBarController.swift */; };
 		B826AB352C49252E007337B3 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826AB342C49252E007337B3 /* Tab.swift */; };
 		B826AB382C495206007337B3 /* VoxelSettings in Frameworks */ = {isa = PBXBuildFile; productRef = B826AB372C495206007337B3 /* VoxelSettings */; };
+		B852387A2C525DFE00EEF9BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B85238792C525DFE00EEF9BC /* GoogleService-Info.plist */; };
 		B8DE13282C33F94400E59B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13272C33F94400E59B82 /* AppDelegate.swift */; };
 		B8DE132A2C33F94400E59B82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13292C33F94400E59B82 /* SceneDelegate.swift */; };
 		B8DE13312C33F94500E59B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13302C33F94500E59B82 /* Assets.xcassets */; };
@@ -22,13 +23,13 @@
 		B8DE136E2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE136D2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf */; };
 		B8F768FC2C3E9F7600185CB7 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = B8F768FB2C3E9F7600185CB7 /* DesignSystem */; };
 		B8F768FE2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8F768FD2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf */; };
-		B8F769002C40697400185CB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8F768FF2C40697400185CB7 /* GoogleService-Info.plist */; };
 		B8F769032C407B6600185CB7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B8F769022C407B6600185CB7 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B826AB322C491EDB007337B3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B826AB342C49252E007337B3 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		B85238792C525DFE00EEF9BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B8DE13242C33F94400E59B82 /* Voxel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voxel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DE13272C33F94400E59B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DE13292C33F94400E59B82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		B8DE136B2C38011100E59B82 /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
 		B8DE136D2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		B8F768FD2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
-		B8F768FF2C40697400185CB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 				B8DE13272C33F94400E59B82 /* AppDelegate.swift */,
 				B8DE13292C33F94400E59B82 /* SceneDelegate.swift */,
 				B8DE13322C33F94500E59B82 /* LaunchScreen.storyboard */,
-				B8F768FF2C40697400185CB7 /* GoogleService-Info.plist */,
+				B85238792C525DFE00EEF9BC /* GoogleService-Info.plist */,
 				B8DE13352C33F94500E59B82 /* Info.plist */,
 			);
 			path = Voxel;
@@ -198,12 +198,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8DE13312C33F94500E59B82 /* Assets.xcassets in Resources */,
-				B8F769002C40697400185CB7 /* GoogleService-Info.plist in Resources */,
 				B8DE136A2C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf in Resources */,
 				B8F768FE2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf in Resources */,
 				B8DE136C2C38011100E59B82 /* IBMPlexSans-Regular.ttf in Resources */,
 				B8DE13682C37F5C300E59B82 /* IBMPlexSerif-Bold.ttf in Resources */,
 				B8DE136E2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf in Resources */,
+				B852387A2C525DFE00EEF9BC /* GoogleService-Info.plist in Resources */,
 				B8DE13342C33F94500E59B82 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
