@@ -26,5 +26,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:331795228870:ios:ab474de8645152f8228fc7</string>
+	<key>DATABASE_URL</key>
+	<string>https://voxel-ff4c0-default-rtdb.europe-west1.firebasedatabase.app</string>
 </dict>
 </plist>
