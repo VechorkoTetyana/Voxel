@@ -1,5 +1,6 @@
 import UIKit
 import DesignSystem
+import VoxelAuthentication
 import VoxelSettings
 
 class TabBarController: UITabBarController {
@@ -31,21 +32,48 @@ class TabBarController: UITabBarController {
         let chats = UIViewController()
         chats.tabBarItem = Tab.chats.tabBarItem
 
-        let settings = SettingsViewController()
+ /*       let settings = SettingsViewController()
         let settingsNav = UINavigationController(rootViewController: settings)
-       
-//        settingsNav.styleVoxel()
-        
+    
         settings.tabBarItem = Tab.settings.tabBarItem
         settings.title = Tab.settings.tabBarItem.title
+  */
+        
+        let settings = setupSettings()
         
         viewControllers = [
             contacts,
             calls,
             chats,
-            settingsNav
+            settings
         ]
         
-        selectedViewController = settingsNav
+        selectedViewController = settings
+    }
+    
+    private func setupSettings() -> UIViewController {
+        
+        let authService = AuthServiceLive()
+        let userRepository = UserProfileRepositoryLive(authService: authService)
+            
+        let profilePictureRepository = ProfilePictureRepositoryLive(
+            authService: authService,
+            userProfileRepository: userRepository
+        )
+        
+        let viewModel = SettingsViewModel(
+            userRepository: userRepository,
+            profilePictureRepository: profilePictureRepository
+        )
+        
+        let settings = SettingsViewController()
+        
+        settings.viewModel = viewModel
+        
+        let settingsNav = UINavigationController(rootViewController: settings)
+        settings.tabBarItem = Tab.settings.tabBarItem
+        settings.title = Tab.settings.tabBarItem.title
+        
+        return settingsNav
     }
 }

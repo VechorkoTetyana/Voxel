@@ -3,6 +3,7 @@ import DesignSystem
 import VoxelAuthentication
 import VoxelCore
 import VoxelLogin
+import VoxelSettings
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -28,7 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     private func setupInitialViewController() -> UIViewController {
-        let authService = AuthServicelive()
+        let authService = AuthServiceLive()
         
         if authService.isAuthenticated {
             return setupTabBar()
@@ -42,7 +43,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     private func setupPhoneNumberController() -> UIViewController {
-        let authService = AuthServicelive()
+        let authService = AuthServiceLive()
         let viewModel = PhoneNumberViewModel(authService: authService)
         
         let phoneNumberController = PhoneNumberViewController()
