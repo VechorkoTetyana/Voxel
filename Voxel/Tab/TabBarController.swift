@@ -62,6 +62,7 @@ class TabBarController: UITabBarController {
         )
         
         let viewModel = SettingsViewModel(
+            authService: authService, 
             userRepository: userRepository,
             profilePictureRepository: profilePictureRepository
         )
