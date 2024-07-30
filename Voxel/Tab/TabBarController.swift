@@ -1,9 +1,21 @@
 import UIKit
 import DesignSystem
+import Swinject
 import VoxelAuthentication
 import VoxelSettings
 
 class TabBarController: UITabBarController {
+    
+    private let container: Container
+    
+    init(container: Container) {
+        self.container = container
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,13 +44,6 @@ class TabBarController: UITabBarController {
         let chats = UIViewController()
         chats.tabBarItem = Tab.chats.tabBarItem
 
- /*       let settings = SettingsViewController()
-        let settingsNav = UINavigationController(rootViewController: settings)
-    
-        settings.tabBarItem = Tab.settings.tabBarItem
-        settings.title = Tab.settings.tabBarItem.title
-  */
-        
         let settings = setupSettings()
         
         viewControllers = [
@@ -52,23 +57,12 @@ class TabBarController: UITabBarController {
     }
     
     private func setupSettings() -> UIViewController {
-        
-        let authService = AuthServiceLive()
-        let userRepository = UserProfileRepositoryLive(authService: authService)
-            
-        let profilePictureRepository = ProfilePictureRepositoryLive(
-            authService: authService,
-            userProfileRepository: userRepository
-        )
-        
+ 
         let viewModel = SettingsViewModel(
-            authService: authService, 
-            userRepository: userRepository,
-            profilePictureRepository: profilePictureRepository
+           container: container
         )
         
         let settings = SettingsViewController()
-        
         settings.viewModel = viewModel
         
         let settingsNav = UINavigationController(rootViewController: settings)
