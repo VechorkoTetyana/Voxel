@@ -1,5 +1,6 @@
 import UIKit
 import DesignSystem
+import Swinject
 import VoxelAuthentication
 import VoxelCore
 import VoxelLogin
@@ -8,8 +9,10 @@ import VoxelSettings
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var container: Container!
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        setupContainer()
         
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
@@ -40,12 +43,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     private func setupTabBar() -> UIViewController {
-        TabBarController()
+        TabBarController(container: container)
     }
     
     private func setupPhoneNumberController() -> UIViewController {
         let authService = AuthServiceLive()
-        let viewModel = PhoneNumberViewModel(authService: authService)
+        let viewModel = PhoneNumberViewModel(container: container)
         
         let phoneNumberController = PhoneNumberViewController()
         phoneNumberController.viewModel = viewModel
@@ -118,5 +121,15 @@ extension SceneDelegate {
         navigationController?.setViewControllers([
             setupPhoneNumberController()
         ], animated: true)
+    }
+}
+
+extension SceneDelegate {
+    private func setupContainer() {
+        container = Container()
+        AppAssembly(container: container).assemble()
+        
+//        let assembler = AppAssembly()
+//        assembler.assemble()
     }
 }

@@ -12,6 +12,10 @@
 		B826AB352C49252E007337B3 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826AB342C49252E007337B3 /* Tab.swift */; };
 		B826AB382C495206007337B3 /* VoxelSettings in Frameworks */ = {isa = PBXBuildFile; productRef = B826AB372C495206007337B3 /* VoxelSettings */; };
 		B852387A2C525DFE00EEF9BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B85238792C525DFE00EEF9BC /* GoogleService-Info.plist */; };
+		B852387E2C5850DE00EEF9BC /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852387D2C5850DE00EEF9BC /* DIContainer.swift */; };
+		B85238812C58E36000EEF9BC /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = B85238802C58E36000EEF9BC /* Swinject */; };
+		B85238832C58E36000EEF9BC /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B85238822C58E36000EEF9BC /* Swinject-Dynamic */; };
+		B85238852C58E45200EEF9BC /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85238842C58E45200EEF9BC /* AppAssembly.swift */; };
 		B8DE13282C33F94400E59B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13272C33F94400E59B82 /* AppDelegate.swift */; };
 		B8DE132A2C33F94400E59B82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13292C33F94400E59B82 /* SceneDelegate.swift */; };
 		B8DE13312C33F94500E59B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13302C33F94500E59B82 /* Assets.xcassets */; };
@@ -30,6 +34,8 @@
 		B826AB322C491EDB007337B3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B826AB342C49252E007337B3 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		B85238792C525DFE00EEF9BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B852387D2C5850DE00EEF9BC /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		B85238842C58E45200EEF9BC /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		B8DE13242C33F94400E59B82 /* Voxel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voxel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DE13272C33F94400E59B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DE13292C33F94400E59B82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,10 +56,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B826AB312C485DAD007337B3 /* VoxelCore in Frameworks */,
+				B85238832C58E36000EEF9BC /* Swinject-Dynamic in Frameworks */,
 				B826AB382C495206007337B3 /* VoxelSettings in Frameworks */,
 				B8DE13642C37E9AB00E59B82 /* VoxelLogin in Frameworks */,
 				B8F769032C407B6600185CB7 /* FirebaseAuth in Frameworks */,
 				B8F768FC2C3E9F7600185CB7 /* DesignSystem in Frameworks */,
+				B85238812C58E36000EEF9BC /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,10 +101,12 @@
 				B826AB362C49257A007337B3 /* Tab */,
 				B8DE13652C37F37000E59B82 /* Resources */,
 				B8DE13272C33F94400E59B82 /* AppDelegate.swift */,
+				B852387D2C5850DE00EEF9BC /* DIContainer.swift */,
 				B8DE13292C33F94400E59B82 /* SceneDelegate.swift */,
 				B8DE13322C33F94500E59B82 /* LaunchScreen.storyboard */,
 				B85238792C525DFE00EEF9BC /* GoogleService-Info.plist */,
 				B8DE13352C33F94500E59B82 /* Info.plist */,
+				B85238842C58E45200EEF9BC /* AppAssembly.swift */,
 			);
 			path = Voxel;
 			sourceTree = "<group>";
@@ -151,6 +161,8 @@
 				B8F769022C407B6600185CB7 /* FirebaseAuth */,
 				B826AB302C485DAD007337B3 /* VoxelCore */,
 				B826AB372C495206007337B3 /* VoxelSettings */,
+				B85238802C58E36000EEF9BC /* Swinject */,
+				B85238822C58E36000EEF9BC /* Swinject-Dynamic */,
 			);
 			productName = Voxel;
 			productReference = B8DE13242C33F94400E59B82 /* Voxel.app */;
@@ -182,6 +194,7 @@
 			mainGroup = B8DE131B2C33F94400E59B82;
 			packageReferences = (
 				B8F769012C40788900185CB7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B852387F2C58E36000EEF9BC /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			productRefGroup = B8DE13252C33F94400E59B82 /* Products */;
 			projectDirPath = "";
@@ -217,6 +230,8 @@
 			files = (
 				B826AB332C491EDB007337B3 /* TabBarController.swift in Sources */,
 				B8DE13282C33F94400E59B82 /* AppDelegate.swift in Sources */,
+				B852387E2C5850DE00EEF9BC /* DIContainer.swift in Sources */,
+				B85238852C58E45200EEF9BC /* AppAssembly.swift in Sources */,
 				B8DE132A2C33F94400E59B82 /* SceneDelegate.swift in Sources */,
 				B826AB352C49252E007337B3 /* Tab.swift in Sources */,
 			);
@@ -431,6 +446,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		B852387F2C58E36000EEF9BC /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
 		B8F769012C40788900185CB7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -449,6 +472,16 @@
 		B826AB372C495206007337B3 /* VoxelSettings */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = VoxelSettings;
+		};
+		B85238802C58E36000EEF9BC /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B852387F2C58E36000EEF9BC /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		B85238822C58E36000EEF9BC /* Swinject-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B852387F2C58E36000EEF9BC /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = "Swinject-Dynamic";
 		};
 		B8DE13632C37E9AB00E59B82 /* VoxelLogin */ = {
 			isa = XCSwiftPackageProductDependency;
