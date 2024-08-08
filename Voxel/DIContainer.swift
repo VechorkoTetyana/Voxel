@@ -3,7 +3,6 @@ import VoxelAuthentication
 import VoxelLogin
 import VoxelSettings
 
-
 class DIContainer: VoxelSettingsDependencies, VoxelLoginDependencies {
     let authService: AuthService
     let userRepository: UserProfileRepository
