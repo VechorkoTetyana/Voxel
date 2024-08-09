@@ -16,6 +16,7 @@
 		B85238812C58E36000EEF9BC /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = B85238802C58E36000EEF9BC /* Swinject */; };
 		B85238832C58E36000EEF9BC /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B85238822C58E36000EEF9BC /* Swinject-Dynamic */; };
 		B85238852C58E45200EEF9BC /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85238842C58E45200EEF9BC /* AppAssembly.swift */; };
+		B85238A62C64F40300EEF9BC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85238A52C64F40300EEF9BC /* AppCoordinator.swift */; };
 		B8DE13282C33F94400E59B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13272C33F94400E59B82 /* AppDelegate.swift */; };
 		B8DE132A2C33F94400E59B82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13292C33F94400E59B82 /* SceneDelegate.swift */; };
 		B8DE13312C33F94500E59B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13302C33F94500E59B82 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		B85238792C525DFE00EEF9BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B852387D2C5850DE00EEF9BC /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		B85238842C58E45200EEF9BC /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		B85238A52C64F40300EEF9BC /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		B8DE13242C33F94400E59B82 /* Voxel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voxel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DE13272C33F94400E59B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DE13292C33F94400E59B82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				B85238792C525DFE00EEF9BC /* GoogleService-Info.plist */,
 				B8DE13352C33F94500E59B82 /* Info.plist */,
 				B85238842C58E45200EEF9BC /* AppAssembly.swift */,
+				B85238A52C64F40300EEF9BC /* AppCoordinator.swift */,
 			);
 			path = Voxel;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				B85238852C58E45200EEF9BC /* AppAssembly.swift in Sources */,
 				B8DE132A2C33F94400E59B82 /* SceneDelegate.swift in Sources */,
 				B826AB352C49252E007337B3 /* Tab.swift in Sources */,
+				B85238A62C64F40300EEF9BC /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

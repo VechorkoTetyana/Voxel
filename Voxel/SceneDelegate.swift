@@ -10,6 +10,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
     var container: Container!
+    var coordinator: AppCoordinator!
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         setupContainer()
@@ -19,9 +20,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         UINavigationController.styleVoxel()
         
-        let navigationController = UINavigationController()
+//        let navigationController = UINavigationController()
         
-        let authService = container.resolve(AuthService.self)!
+/*        let authService = container.resolve(AuthService.self)!
         if authService.isAuthenticated {
             navigationController.setViewControllers([setupTabBar()], animated: false)
         } else {
@@ -32,6 +33,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             
             coordinator.start()
         }
+ 
+ */
         
 //        let navigationController = UINavigationController(
 //            rootViewController: setupInitialViewController()
@@ -39,11 +42,29 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
 //      navigationController.styleVoxel()
         
+//        window?.rootViewController = navigationController
+//        window?.makeKeyAndVisible()
+        
+        setupAppCoordinator()
+        
+//        subscribeToLogin()
+//        subscribeToLogout()
+    }
+
+    private func setupAppCoordinator() {
+        let navigationController = UINavigationController()
+        
+        let coordinator = AppCoordinator(
+            navigationController: navigationController,
+            container: container
+        )
+        
+        coordinator.start()
+        
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         
-        subscribeToLogin()
-        subscribeToLogout()
+        self.coordinator = coordinator
     }
     
   /*  private func setupInitialViewController() -> UIViewController {
@@ -56,9 +77,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
     }*/
     
-    private func setupTabBar() -> UIViewController {
+/*    private func setupTabBar() -> UIViewController {
         TabBarController(container: container)
     }
+ */
     
  /*   private func setupPhoneNumberController() -> UIViewController {
         let authService = AuthServiceLive()
@@ -98,6 +120,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 }
+
+/*
 
 extension SceneDelegate {
     private func subscribeToLogin() {
@@ -144,6 +168,8 @@ extension SceneDelegate {
         coordinator.start()
     }
 }
+ 
+ */
 
 extension SceneDelegate {
     private func setupContainer() {
