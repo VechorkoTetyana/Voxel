@@ -37,7 +37,7 @@ class AppCoordinator: Coordinator {
     }
     
     private func presentLogin() {
-        let coordinator = PhoneNumberCoordinator(
+        let coordinator = PhoneNumberCoordinatorLive(
             navigationController: navigationController,
             container: container
         )

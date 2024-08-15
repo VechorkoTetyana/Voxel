@@ -14,9 +14,10 @@
 		B852387A2C525DFE00EEF9BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B85238792C525DFE00EEF9BC /* GoogleService-Info.plist */; };
 		B852387E2C5850DE00EEF9BC /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852387D2C5850DE00EEF9BC /* DIContainer.swift */; };
 		B85238812C58E36000EEF9BC /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = B85238802C58E36000EEF9BC /* Swinject */; };
-		B85238832C58E36000EEF9BC /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B85238822C58E36000EEF9BC /* Swinject-Dynamic */; };
 		B85238852C58E45200EEF9BC /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85238842C58E45200EEF9BC /* AppAssembly.swift */; };
 		B85238A62C64F40300EEF9BC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85238A52C64F40300EEF9BC /* AppCoordinator.swift */; };
+		B85238B02C6B66C500EEF9BC /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85238AF2C6B66C500EEF9BC /* AppCoordinatorTests.swift */; };
+		B85238B82C6B6BED00EEF9BC /* AuthServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85238B72C6B6BED00EEF9BC /* AuthServiceMock.swift */; };
 		B8DE13282C33F94400E59B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13272C33F94400E59B82 /* AppDelegate.swift */; };
 		B8DE132A2C33F94400E59B82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13292C33F94400E59B82 /* SceneDelegate.swift */; };
 		B8DE13312C33F94500E59B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13302C33F94500E59B82 /* Assets.xcassets */; };
@@ -31,6 +32,16 @@
 		B8F769032C407B6600185CB7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B8F769022C407B6600185CB7 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B85238B12C6B66C500EEF9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8DE131C2C33F94400E59B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8DE13232C33F94400E59B82;
+			remoteInfo = Voxel;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		B826AB322C491EDB007337B3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B826AB342C49252E007337B3 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
@@ -38,6 +49,9 @@
 		B852387D2C5850DE00EEF9BC /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		B85238842C58E45200EEF9BC /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		B85238A52C64F40300EEF9BC /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B85238AD2C6B66C500EEF9BC /* VoxelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoxelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85238AF2C6B66C500EEF9BC /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
+		B85238B72C6B6BED00EEF9BC /* AuthServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceMock.swift; sourceTree = "<group>"; };
 		B8DE13242C33F94400E59B82 /* Voxel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voxel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DE13272C33F94400E59B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8DE13292C33F94400E59B82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,12 +67,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B85238AA2C6B66C500EEF9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8DE13212C33F94400E59B82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B826AB312C485DAD007337B3 /* VoxelCore in Frameworks */,
-				B85238832C58E36000EEF9BC /* Swinject-Dynamic in Frameworks */,
 				B826AB382C495206007337B3 /* VoxelSettings in Frameworks */,
 				B8DE13642C37E9AB00E59B82 /* VoxelLogin in Frameworks */,
 				B8F769032C407B6600185CB7 /* FirebaseAuth in Frameworks */,
@@ -79,11 +99,29 @@
 			path = Tab;
 			sourceTree = "<group>";
 		};
+		B85238AE2C6B66C500EEF9BC /* VoxelTests */ = {
+			isa = PBXGroup;
+			children = (
+				B85238B62C6B6BC200EEF9BC /* Mocks */,
+				B85238AF2C6B66C500EEF9BC /* AppCoordinatorTests.swift */,
+			);
+			path = VoxelTests;
+			sourceTree = "<group>";
+		};
+		B85238B62C6B6BC200EEF9BC /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				B85238B72C6B6BED00EEF9BC /* AuthServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		B8DE131B2C33F94400E59B82 = {
 			isa = PBXGroup;
 			children = (
 				B8DE133B2C33FB0E00E59B82 /* Modules */,
 				B8DE13262C33F94400E59B82 /* Voxel */,
+				B85238AE2C6B66C500EEF9BC /* VoxelTests */,
 				B8DE13252C33F94400E59B82 /* Products */,
 				B8DE13622C37E9AB00E59B82 /* Frameworks */,
 			);
@@ -93,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				B8DE13242C33F94400E59B82 /* Voxel.app */,
+				B85238AD2C6B66C500EEF9BC /* VoxelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +184,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B85238AC2C6B66C500EEF9BC /* VoxelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85238B32C6B66C500EEF9BC /* Build configuration list for PBXNativeTarget "VoxelTests" */;
+			buildPhases = (
+				B85238A92C6B66C500EEF9BC /* Sources */,
+				B85238AA2C6B66C500EEF9BC /* Frameworks */,
+				B85238AB2C6B66C500EEF9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85238B22C6B66C500EEF9BC /* PBXTargetDependency */,
+			);
+			name = VoxelTests;
+			productName = VoxelTests;
+			productReference = B85238AD2C6B66C500EEF9BC /* VoxelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B8DE13232C33F94400E59B82 /* Voxel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8DE13382C33F94500E59B82 /* Build configuration list for PBXNativeTarget "Voxel" */;
@@ -165,7 +222,6 @@
 				B826AB302C485DAD007337B3 /* VoxelCore */,
 				B826AB372C495206007337B3 /* VoxelSettings */,
 				B85238802C58E36000EEF9BC /* Swinject */,
-				B85238822C58E36000EEF9BC /* Swinject-Dynamic */,
 			);
 			productName = Voxel;
 			productReference = B8DE13242C33F94400E59B82 /* Voxel.app */;
@@ -181,6 +237,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					B85238AC2C6B66C500EEF9BC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B8DE13232C33F94400E59B82;
+					};
 					B8DE13232C33F94400E59B82 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -204,11 +264,19 @@
 			projectRoot = "";
 			targets = (
 				B8DE13232C33F94400E59B82 /* Voxel */,
+				B85238AC2C6B66C500EEF9BC /* VoxelTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B85238AB2C6B66C500EEF9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8DE13222C33F94400E59B82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +295,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B85238A92C6B66C500EEF9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85238B02C6B66C500EEF9BC /* AppCoordinatorTests.swift in Sources */,
+				B85238B82C6B6BED00EEF9BC /* AuthServiceMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B8DE13202C33F94400E59B82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +320,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B85238B22C6B66C500EEF9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8DE13232C33F94400E59B82 /* Voxel */;
+			targetProxy = B85238B12C6B66C500EEF9BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		B8DE13322C33F94500E59B82 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -255,6 +340,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B85238B42C6B66C500EEF9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvechorkofedora.VoxelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voxel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Voxel";
+			};
+			name = Debug;
+		};
+		B85238B52C6B66C500EEF9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvechorkofedora.VoxelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voxel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Voxel";
+			};
+			name = Release;
+		};
 		B8DE13362C33F94500E59B82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,6 +548,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B85238B32C6B66C500EEF9BC /* Build configuration list for PBXNativeTarget "VoxelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85238B42C6B66C500EEF9BC /* Debug */,
+				B85238B52C6B66C500EEF9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B8DE131F2C33F94400E59B82 /* Build configuration list for PBXProject "Voxel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -481,11 +609,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B852387F2C58E36000EEF9BC /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
-		};
-		B85238822C58E36000EEF9BC /* Swinject-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B852387F2C58E36000EEF9BC /* XCRemoteSwiftPackageReference "Swinject" */;
-			productName = "Swinject-Dynamic";
 		};
 		B8DE13632C37E9AB00E59B82 /* VoxelLogin */ = {
 			isa = XCSwiftPackageProductDependency;
