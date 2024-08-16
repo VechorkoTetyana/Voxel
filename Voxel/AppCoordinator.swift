@@ -1,33 +1,26 @@
 import UIKit
-import VoxelAuthentication
 import VoxelCore
 import VoxelLogin
+import VoxelAuthentication
 import Swinject
 
 class AppCoordinator: Coordinator {
     
     private let navigationController: UINavigationController
     private let container: Container
-    
+
     private var authService: AuthService {
         container.resolve(AuthService.self)!
     }
 
-    init(
-        navigationController: UINavigationController,
-        container: Container
-    ) {
+    init(navigationController: UINavigationController, container: Container) {
         self.navigationController = navigationController
         self.container = container
-        
+
         subscribeToLogin()
         subscribeToLogout()
     }
-    
-    deinit {
-        print("AppCoordinator: deinitialised")
-    }
-    
+
     func start() {
         if authService.isAuthenticated {
             navigationController.setViewControllers([setupTabBar()], animated: false)
@@ -35,22 +28,22 @@ class AppCoordinator: Coordinator {
             presentLogin()
         }
     }
-    
+
     private func presentLogin() {
         let coordinator = PhoneNumberCoordinatorLive(
             navigationController: navigationController,
             container: container
         )
-                
+
         coordinator.start()
     }
-    
+
     private func setupTabBar() -> UIViewController {
         TabBarController(container: container)
     }
 }
 
-// MARK: Login
+// MARK:  Login
 
 extension AppCoordinator {
     private func subscribeToLogin() {
@@ -61,16 +54,17 @@ extension AppCoordinator {
             object: nil
         )
     }
-    
+
     @objc
     private func didLoginSuccessfully() {
         navigationController.setViewControllers([setupTabBar()], animated: true)
     }
 }
 
-// MARK: Logout
+// MARK:  Logout
 
 extension AppCoordinator {
+
     private func subscribeToLogout() {
         NotificationCenter.default.addObserver(
             self,
@@ -79,7 +73,7 @@ extension AppCoordinator {
             object: nil
         )
     }
-    
+
     @objc
     private func didLogout() {
         presentLogin()
