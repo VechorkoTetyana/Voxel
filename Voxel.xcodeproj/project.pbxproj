@@ -27,6 +27,8 @@
 		B8DE136A2C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE13692C37FF7D00E59B82 /* IBMPlexSerif-Regular.ttf */; };
 		B8DE136C2C38011100E59B82 /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE136B2C38011100E59B82 /* IBMPlexSans-Regular.ttf */; };
 		B8DE136E2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DE136D2C3BF2B600E59B82 /* IBMPlexSans-SemiBold.ttf */; };
+		B8E174C42C6F4D74001D8B71 /* VoxelAuthentication in Frameworks */ = {isa = PBXBuildFile; productRef = B8E174C32C6F4D74001D8B71 /* VoxelAuthentication */; };
+		B8E174C62C6F4D8F001D8B71 /* VoxelMocks in Frameworks */ = {isa = PBXBuildFile; productRef = B8E174C52C6F4D8F001D8B71 /* VoxelMocks */; };
 		B8F768FC2C3E9F7600185CB7 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = B8F768FB2C3E9F7600185CB7 /* DesignSystem */; };
 		B8F768FE2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8F768FD2C3EA69800185CB7 /* IBMPlexSans-Bold.ttf */; };
 		B8F769032C407B6600185CB7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B8F769022C407B6600185CB7 /* FirebaseAuth */; };
@@ -83,6 +85,8 @@
 				B8DE13642C37E9AB00E59B82 /* VoxelLogin in Frameworks */,
 				B8F769032C407B6600185CB7 /* FirebaseAuth in Frameworks */,
 				B8F768FC2C3E9F7600185CB7 /* DesignSystem in Frameworks */,
+				B8E174C62C6F4D8F001D8B71 /* VoxelMocks in Frameworks */,
+				B8E174C42C6F4D74001D8B71 /* VoxelAuthentication in Frameworks */,
 				B85238812C58E36000EEF9BC /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +226,8 @@
 				B826AB302C485DAD007337B3 /* VoxelCore */,
 				B826AB372C495206007337B3 /* VoxelSettings */,
 				B85238802C58E36000EEF9BC /* Swinject */,
+				B8E174C32C6F4D74001D8B71 /* VoxelAuthentication */,
+				B8E174C52C6F4D8F001D8B71 /* VoxelMocks */,
 			);
 			productName = Voxel;
 			productReference = B8DE13242C33F94400E59B82 /* Voxel.app */;
@@ -613,6 +619,14 @@
 		B8DE13632C37E9AB00E59B82 /* VoxelLogin */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = VoxelLogin;
+		};
+		B8E174C32C6F4D74001D8B71 /* VoxelAuthentication */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VoxelAuthentication;
+		};
+		B8E174C52C6F4D8F001D8B71 /* VoxelMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VoxelMocks;
 		};
 		B8F768FB2C3E9F7600185CB7 /* DesignSystem */ = {
 			isa = XCSwiftPackageProductDependency;
