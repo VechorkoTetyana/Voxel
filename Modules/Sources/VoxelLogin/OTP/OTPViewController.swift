@@ -202,6 +202,8 @@ extension OTPViewController {
 
         let digits = textFields.map { $0.text ?? "" }
 
+        print("Digits are ok\(digits)")
+        
         let loadingVC = LoadingViewController()
         loadingVC.modalPresentationStyle = .overCurrentContext
         self.present(loadingVC, animated: true)
