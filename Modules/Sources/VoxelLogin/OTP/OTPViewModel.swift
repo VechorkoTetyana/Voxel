@@ -23,7 +23,7 @@ public final class OTPViewModel {
         }
 
         let otp = combineToOTP(digits: digits)
-
+        print("OTP\(otp)")
         let user = try await authService.authenticate(withOTP: otp)
         print(user.uid)
     }

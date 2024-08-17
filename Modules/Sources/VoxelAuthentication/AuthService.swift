@@ -45,6 +45,9 @@ public class AuthServiceLive: AuthService {
             .verifyPhoneNumber(phoneNumber, uiDelegate: nil)
 
         UserDefaults.standard.set(verificationID, forKey: UserDefaultKey.authVerificationId.rawValue)
+        
+        print("requestOTP verificationId \(verificationID)")
+        
     }
 
     public func authenticate(withOTP otp: String) async throws -> User {
@@ -52,6 +55,8 @@ public class AuthServiceLive: AuthService {
         guard let verificationId = UserDefaults.standard.string(forKey: UserDefaultKey.authVerificationId.rawValue) else {
             throw AuthError.noVerificationId
         }
+        
+        print("authenticate verificationId \(verificationId)")
 
         let credential = PhoneAuthProvider.provider().credential(
             withVerificationID: verificationId,
