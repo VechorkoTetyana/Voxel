@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		664E406C2C36DB630037110D /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 664E406B2C36DB630037110D /* Swinject */; };
-		664E406E2C36DB630037110D /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 664E406D2C36DB630037110D /* Swinject-Dynamic */; };
 		664E40702C36DB980037110D /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E406F2C36DB980037110D /* AppAssembly.swift */; };
 		6654F11B2C4FBA7A008562A3 /* VoxelContacts in Frameworks */ = {isa = PBXBuildFile; productRef = 6654F11A2C4FBA7A008562A3 /* VoxelContacts */; };
 		6655E1C12C305B7B00348862 /* VoxelSettings in Frameworks */ = {isa = PBXBuildFile; productRef = 6655E1C02C305B7B00348862 /* VoxelSettings */; };
@@ -29,6 +27,12 @@
 		6691505E2C26CA85002061CA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6691505D2C26CA85002061CA /* FirebaseAuth */; };
 		66B554C82C49549A007ED570 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B554C72C49549A007ED570 /* AppCoordinatorTests.swift */; };
 		66B554D02C4957E4007ED570 /* AuthServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B554CF2C4957E4007ED570 /* AuthServiceMock.swift */; };
+		B81C015C2C716B62003A65C0 /* VoxelMocks in Frameworks */ = {isa = PBXBuildFile; productRef = B81C015B2C716B62003A65C0 /* VoxelMocks */; };
+		B81C015E2C716B81003A65C0 /* VoxelAuthentication in Frameworks */ = {isa = PBXBuildFile; productRef = B81C015D2C716B81003A65C0 /* VoxelAuthentication */; };
+		B81C01602C716CF5003A65C0 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = B81C015F2C716CF5003A65C0 /* Swinject */; };
+		B81C01622C716CF5003A65C0 /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B81C01612C716CF5003A65C0 /* Swinject-Dynamic */; };
+		B81C01642C717395003A65C0 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = B81C01632C717395003A65C0 /* Swinject */; };
+		B81C01662C717395003A65C0 /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B81C01652C717395003A65C0 /* Swinject-Dynamic */; };
 		B8CD9B132C6F787D00E68D20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8CD9B122C6F787D00E68D20 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -71,13 +75,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				665665CF2C3003A4006FB1EA /* VoxelCore in Frameworks */,
-				664E406E2C36DB630037110D /* Swinject-Dynamic in Frameworks */,
 				6654F11B2C4FBA7A008562A3 /* VoxelContacts in Frameworks */,
 				6655E1C12C305B7B00348862 /* VoxelSettings in Frameworks */,
+				B81C01622C716CF5003A65C0 /* Swinject-Dynamic in Frameworks */,
 				6691504B2C25878B002061CA /* VoxelLogin in Frameworks */,
 				6691505E2C26CA85002061CA /* FirebaseAuth in Frameworks */,
+				B81C01602C716CF5003A65C0 /* Swinject in Frameworks */,
+				B81C015C2C716B62003A65C0 /* VoxelMocks in Frameworks */,
 				669150572C25D625002061CA /* DesignSystem in Frameworks */,
-				664E406C2C36DB630037110D /* Swinject in Frameworks */,
+				B81C015E2C716B81003A65C0 /* VoxelAuthentication in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81C01642C717395003A65C0 /* Swinject in Frameworks */,
+				B81C01662C717395003A65C0 /* Swinject-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +211,11 @@
 				6691505D2C26CA85002061CA /* FirebaseAuth */,
 				665665CE2C3003A4006FB1EA /* VoxelCore */,
 				6655E1C02C305B7B00348862 /* VoxelSettings */,
-				664E406B2C36DB630037110D /* Swinject */,
-				664E406D2C36DB630037110D /* Swinject-Dynamic */,
 				6654F11A2C4FBA7A008562A3 /* VoxelContacts */,
+				B81C015B2C716B62003A65C0 /* VoxelMocks */,
+				B81C015D2C716B81003A65C0 /* VoxelAuthentication */,
+				B81C015F2C716CF5003A65C0 /* Swinject */,
+				B81C01612C716CF5003A65C0 /* Swinject-Dynamic */,
 			);
 			productName = Voxel;
 			productReference = 669150312C257C31002061CA /* Voxel.app */;
@@ -226,6 +236,8 @@
 			);
 			name = VoxelTests;
 			packageProductDependencies = (
+				B81C01632C717395003A65C0 /* Swinject */,
+				B81C01652C717395003A65C0 /* Swinject-Dynamic */,
 			);
 			productName = VoxelTests;
 			productReference = 66B554C52C49549A007ED570 /* VoxelTests.xctest */;
@@ -605,16 +617,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		664E406B2C36DB630037110D /* Swinject */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 664E406A2C36DB630037110D /* XCRemoteSwiftPackageReference "Swinject" */;
-			productName = Swinject;
-		};
-		664E406D2C36DB630037110D /* Swinject-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 664E406A2C36DB630037110D /* XCRemoteSwiftPackageReference "Swinject" */;
-			productName = "Swinject-Dynamic";
-		};
 		6654F11A2C4FBA7A008562A3 /* VoxelContacts */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = VoxelContacts;
@@ -639,6 +641,34 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6691505C2C26C8CE002061CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		B81C015B2C716B62003A65C0 /* VoxelMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VoxelMocks;
+		};
+		B81C015D2C716B81003A65C0 /* VoxelAuthentication */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VoxelAuthentication;
+		};
+		B81C015F2C716CF5003A65C0 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 664E406A2C36DB630037110D /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		B81C01612C716CF5003A65C0 /* Swinject-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 664E406A2C36DB630037110D /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = "Swinject-Dynamic";
+		};
+		B81C01632C717395003A65C0 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 664E406A2C36DB630037110D /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		B81C01652C717395003A65C0 /* Swinject-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 664E406A2C36DB630037110D /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = "Swinject-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -9,23 +9,23 @@ enum ContactsStrings: String {
 }
 
 class ContactsViewController: UIViewController {
-
+    
     private lazy var searchController: UISearchController = {
         UISearchController(searchResultsController: nil)
     }()
     private weak var tableView: UITableView!
-
+    
     var viewModel: ContactsViewModel!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         setupUI()
-
+        
         configureTableView()
         loadContacts()
     }
-
+    
     private func configureTableView() {
         tableView.register(ContactCell.self, forCellReuseIdentifier: "ContactCell")
         tableView.delegate = self
@@ -36,16 +36,21 @@ class ContactsViewController: UIViewController {
         tableView.sectionHeaderTopPadding = 0
         tableView.backgroundColor = .background
     }
-
+    
     private func loadContacts() {
         Task {
-            await viewModel.fetch()
-            await MainActor.run {
-                self.tableView.reloadData()
+            do {
+                try await viewModel.fetch()
+                await MainActor.run {
+                    self.tableView.reloadData()
+                }
+            } catch {
+                    showError(error.localizedDescription)
             }
         }
     }
 }
+
 
 extension ContactsViewController {
 

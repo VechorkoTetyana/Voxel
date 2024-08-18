@@ -51,7 +51,7 @@ let package = Package(
         .target(
             name: "VoxelAuthentication",
             dependencies: [
-                .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
+                .product(name: "FirebaseAuth", package: "firebase-ios-sdk")
             ]
         ),
 
@@ -77,6 +77,7 @@ let package = Package(
                 "SnapKit",
                 "PhoneNumberKit",
                 "Swinject",
+                .product(name: "FirebaseAuth", package: "firebase-ios-sdk")
             ],
             resources: [
                 .process("Resources")
@@ -88,6 +89,13 @@ let package = Package(
             dependencies: [
                 "VoxelLogin",
                 "VoxelMocks"
+            ]
+        ),
+        
+        .testTarget(
+            name: "VoxelContactsTests",
+            dependencies: [
+                "VoxelContacts"
             ]
         ),
 
@@ -106,7 +114,7 @@ let package = Package(
                 "SDWebImage",
                 "Swinject",
                 .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
-                .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),
+                .product(name: "FirebaseStorage", package: "firebase-ios-sdk")
             ],
             resources: [
                 .process("Resources")
