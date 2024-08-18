@@ -51,7 +51,8 @@ let package = Package(
         .target(
             name: "VoxelAuthentication",
             dependencies: [
-                .product(name: "FirebaseAuth", package: "firebase-ios-sdk")
+                .product(name: "FirebaseAuth", package: "firebase-ios-sdk"),
+                .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
             ]
         ),
 

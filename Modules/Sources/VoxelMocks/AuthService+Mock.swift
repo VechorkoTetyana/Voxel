@@ -27,7 +27,7 @@ public class AuthServiceMock: AuthService {
     public func authenticate(withOTP otp: String) async throws -> User {
         didAuthenticate.append(otp)
 
-        return User(uid: "123")
+        return User(uid: "123", phoneNumber: "")
     }
 
     public func logout() throws {}
