@@ -57,8 +57,8 @@ public final class SettingsViewModel {
     private func updateHeader(with userProfile: UserProfile) {
         header = Header(
             imageUrl: userProfile.profilePictureUrl,
-            name: userProfile.fullName,
-            description: userProfile.description
+            name: userProfile.fullName ?? "",
+            description: userProfile.description ?? ""
         )
 
         didUpdateHeader?()

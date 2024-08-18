@@ -2,13 +2,19 @@ import FirebaseAuth
 
 public enum AuthError: Error {
     case noVerificationId
+    case notAuthenticated
 }
 
 public struct User {
     public let uid: String
-
-    public init(uid: String) {
+    public let phoneNumber: String
+    
+    public init(
+        uid: String,
+        phoneNumber: String
+    ) {
         self.uid = uid
+        self.phoneNumber = phoneNumber
     }
 }
 
@@ -27,6 +33,12 @@ public protocol AuthService {
 }
 
 public class AuthServiceLive: AuthService {
+    
+    //SavePhoneNumberUseCaseLive
+    private lazy var savePhoneUseCase: SavePhoneNumberUseCase = { [unowned self]
+        in
+        SavePhoneNumberUseCaseLive(authService: self)
+    }()
 
     public var isAuthenticated: Bool {
         Auth.auth().currentUser != nil
@@ -34,7 +46,9 @@ public class AuthServiceLive: AuthService {
 
     public var user: User? {
         guard let user = Auth.auth().currentUser else { return nil }
-        return User(uid: user.uid)
+        guard let phoneNumber = user.phoneNumber else { return nil }
+
+        return User(uid: user.uid, phoneNumber: phoneNumber)
     }
 
     public init() {}
@@ -64,11 +78,18 @@ public class AuthServiceLive: AuthService {
         )
 
         let result = try await Auth.auth().signIn(with: credential)
+        
+        guard let user = user else {
+            throw AuthError.notAuthenticated
+        }
 
-        return User(uid: result.user.uid)
+        try await savePhoneUseCase.execute()
+        
+        return user
     }
 
     public func logout() throws {
         try Auth.auth().signOut()
     }
 }
+
