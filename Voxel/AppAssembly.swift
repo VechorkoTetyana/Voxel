@@ -1,8 +1,10 @@
 import Foundation
 import Swinject
 import VoxelAuthentication
+import VoxelContacts
 import VoxelSettings
 import VoxelLogin
+import VoxelMocks
 
 class AppAssembly {
 
@@ -30,6 +32,10 @@ class AppAssembly {
 
         container.register(ProfilePictureRepository.self) { container in
             profilePictureRepository
+        }
+        
+        container.register(ContactsRepository.self) { _ in
+            ContactsRepositoryFake()
         }
     }
 }
