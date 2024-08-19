@@ -77,7 +77,7 @@ public class AuthServiceLive: AuthService {
             verificationCode: otp
         )
 
-        let result = try await Auth.auth().signIn(with: credential)
+        let _ = try await Auth.auth().signIn(with: credential)
         
         guard let user = user else {
             throw AuthError.notAuthenticated
