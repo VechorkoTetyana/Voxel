@@ -21,8 +21,11 @@ class ContactsViewController: UIViewController {
         super.viewDidLoad()
         
         setupUI()
-        
         configureTableView()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         loadContacts()
     }
     

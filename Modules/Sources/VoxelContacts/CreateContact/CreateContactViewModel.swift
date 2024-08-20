@@ -78,6 +78,9 @@ public class CreateContactViewModel {
         // For example:
         // contactService.updateContact(updatedContact)
         
+        
+        try await repository.updateContact(contact, with: fullName)
+        
         await MainActor.run {
             coordinator.dismiss()
         }
