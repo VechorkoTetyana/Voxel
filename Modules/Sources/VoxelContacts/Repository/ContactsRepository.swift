@@ -4,26 +4,6 @@ import FirebaseDatabase
 import VoxelAuthentication
 import Swinject
 
-public struct Contact {
-    public let uid: String
-    public let name: String
-    public var phoneNumber: String {
-        userProfile.phoneNumber
-    }
-    public let userProfile: UserProfile
-    
-/*    public let image: UIImage?
-    public let isOnline: Bool
-    public let firstLetter: String
-    public let phoneNumber: String  */
-    
-    public init(uid: String, name: String, userProfile: UserProfile) {
-        self.uid = uid
-        self.name = name
-        self.userProfile = userProfile
-    }
-}
-
 public protocol ContactsRepository {
     func fetch() async throws -> [Contact]
     func addContact(withPhoneNumber phoneNumber: String, fullName: String) async throws
@@ -44,16 +24,19 @@ public class ContactsRepositoryLive: ContactsRepository {
     private let reference: DatabaseReference
     private let phoneNumberReference: DatabaseReference
     private let usersReference: DatabaseReference
-    private let container: Container
-    private var authService: AuthService {
-        container.resolve(AuthService.self)!
-    }
+//    private let container: Container
+    private let authService: AuthService
+
+//    private var authService: AuthService {
+//        container.resolve(AuthService.self)!
+//    }
 
     public init(container: Container) {
-        self.container = container
+//        self.container = container
         reference = Database.database().reference().child("contacts")
         phoneNumberReference = Database.database().reference().child(DatabaseBranch.phoneNumbers.rawValue)
         usersReference = Database.database().reference().child("users")
+        authService = container.resolve(AuthService.self)!
     }
     
     public func fetch() async throws -> [Contact] {
@@ -70,10 +53,13 @@ public class ContactsRepositoryLive: ContactsRepository {
         // fetch contacts one after another, it´s slow. It coud be done parallely
         for(contactUid, contactRel) in contacts {
             let profile = try await fetchProfile(with: contactUid)
+            let isMutual = try await isContactMutual(contactUid)
+
             let contact = Contact(
                 uid: contactUid,
                 name: contactRel.name,
-                userProfile: profile
+                userProfile: profile, 
+                isMutual: isMutual
             )
             contactsArray.append(contact)
         }
@@ -93,8 +79,23 @@ public class ContactsRepositoryLive: ContactsRepository {
         let profile = try await fetchProfile(with: uid)
         let snapshot = try await reference.child(user.uid).child(uid).getData()
         let contactRel = try snapshot.data(as: ContactRelationship.self)
+        let isMutual = try await isContactMutual(uid)
         
-        return Contact(uid: uid, name: contactRel.name, userProfile: profile)
+        return Contact(
+            uid: uid,
+            name: contactRel.name,
+            userProfile: profile,
+            isMutual: isMutual
+        )
+    }
+    
+    public func isContactMutual(_ uid: String) async throws -> Bool {
+        guard let user = authService.user else {
+            throw AuthError.notAuthenticated
+        }
+        
+        let snapshot = try await reference.child(uid).child(user.uid).getData()
+        return snapshot.exists()
     }
     
     public func addContact(withPhoneNumber phoneNumber: String, fullName: String) async throws {
